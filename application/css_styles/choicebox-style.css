@@ -1,0 +1,21 @@
+/* Target the visible label part */
+.custom-choicebox .label {
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+}
+
+/* Optional: dark background */
+.custom-choicebox {
+    -fx-background-color: #2e2e2e;
+}
+
+/* Target the popup menu */
+.custom-choicebox .context-menu {
+    -fx-background-color: #2e2e2e;
+}
+
+/* Style items in the popup */
+.custom-choicebox .menu-item > .label {
+    -fx-text-fill: white;
+    -fx-font-size: 15px;
+}
